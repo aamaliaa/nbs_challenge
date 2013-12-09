@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="viz">
+<head>
+
+	<title>Amalia Viti - NextBigSound Challenge</title>
+	
+	<link href="stylesheets/style.css" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+
+	<script src="javascripts/main.js"></script>
+
+</head>
+<body ng-controller="mainController">
+
+	<h1>NextBigSound Code Challenge</h1>
+
+	<h2>Rihanna</h2>
+
+	<chart data="finishedData" sources="sources"></chart>
+
+	<div class="chartDetails">
+		<p>Select a data source to view it on the chart.</p>
+
+		<ul>
+			<li>
+				<input type="checkbox" ng-click="toggleSource('facebook')">
+				<div class="facebook">Facebook</div>
+			</li>
+			<li>
+				<input type="checkbox" ng-click="toggleSource('twitter')">
+				<div class="twitter">Twitter</div>
+			</li>
+			<li>
+				<input type="checkbox" ng-click="toggleSource('wikipedia')">
+				<div class="wikipedia">Wikipedia</div>
+			</li>
+			<li>
+				<input type="checkbox" ng-click="toggleSource('vevo')">
+				<div class="vevo">Vevo</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+  padding: 50px;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2 {
+  text-align: center;
+}
+
+g {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+  .facebook {
+    stroke: #3b5998;
+    color: #3b5998;
+  }
+
+  .twitter {
+    stroke: #1dcaff;
+    color: #1dcaff;
+  }
+
+  .vevo {
+    stroke: #f20d39;
+    color: #f20d39;
+  }
+
+  .wikipedia {
+    stroke: #666;
+    color: #666;
+  }
+
+.chartDetails {
+  margin-left: 80px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li > div {
+  display: inline-block;
+  padding: 5px 10px;
+  border-left: 3px solid;
+}
